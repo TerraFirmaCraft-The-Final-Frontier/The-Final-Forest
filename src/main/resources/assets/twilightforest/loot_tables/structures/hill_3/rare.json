@@ -9,7 +9,7 @@
       },
       {
         "type": "item",
-        "name": "twilightforest:ironwood_pickaxe",
+        "name": "tfc:metal/pickaxe/ironwood",
         "functions": [{
             "function": "twilightforest:enchant",
             "enchantments": {

@@ -9,12 +9,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:emerald",
+          "name": "tfc:gem/amethyst",
           "functions": [{ "function": "set_count", "count": { "min": 1, "max": 6 } }]
         },
         {
           "type": "item",
-          "name": "minecraft:diamond"
+          "name": "tfc:gem/opal"
         },
         {
           "type": "item",

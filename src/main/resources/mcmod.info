@@ -1,11 +1,11 @@
 [
 {
   "modid": "twilightforest",
-  "name": "The Twilight Forest",
-  "description": "An enchanted forest dimension.",
+  "name": "The Final Forest",
+  "description": "Fork of The Twilight Forest for usage in TFC: The Final Frontier.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://minecraft.curseforge.com/projects/the-twilight-forest",
+  "url": "https://minecraft.curseforge.com/projects/the-final-forest",
   "updateUrl": "",
   "authorList": [
     "Benimatic",
@@ -17,7 +17,7 @@
     "williewillus"
   ],
   "credits": "By Benimatic (Ben Mazur)",
-  "logoFile": "assets/twilightforest/textures/twilightforest_logo.png",
+  "logoFile": "assets/mod_logo/the_final_forest.png",
   "screenshots": [],
   "dependencies": []
 }

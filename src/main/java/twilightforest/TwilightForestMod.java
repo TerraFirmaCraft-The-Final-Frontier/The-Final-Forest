@@ -40,7 +40,7 @@ import twilightforest.world.feature.TFGenCaveStalactite;
 public class TwilightForestMod {
 
 	public static final String ID = "twilightforest";
-	public static final String NAME = "The Twilight Forest";
+	public static final String NAME = "The Final Forest";
 	public static final String VERSION = "@VERSION@";
 
 	private static final String MODEL_DIR  = "textures/model/";
