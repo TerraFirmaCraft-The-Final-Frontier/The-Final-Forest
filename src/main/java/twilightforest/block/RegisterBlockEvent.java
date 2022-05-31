@@ -74,10 +74,17 @@ public final class RegisterBlockEvent {
 		blocks.register("trollsteinn", "TrollSteinn", new BlockTFTrollSteinn());
 		blocks.register("wispy_cloud", "WispyCloud", new BlockTFWispyCloud());
 		blocks.register("fluffy_cloud", "FluffyCloud", new BlockTFFluffyCloud());
+
+
+
+		//================================ Giant Blocks ================================//
+
 		blocks.register("giant_cobblestone", "GiantCobble", new BlockTFGiantCobble());
 		blocks.register("giant_log", "GiantLog", new BlockTFGiantLog());
 		blocks.register("giant_leaves", "GiantLeaves", new BlockTFGiantLeaves());
 		blocks.register("giant_obsidian", "GiantObsidian", new BlockTFGiantObsidian());
+
+
 		blocks.register("uberous_soil", "UberousSoil", new BlockTFUberousSoil());
 		blocks.register("huge_stalk", "HugeStalk", new BlockTFHugeStalk());
 		blocks.register("huge_mushgloom", "HugeGloomBlock", new BlockTFHugeGloomBlock());

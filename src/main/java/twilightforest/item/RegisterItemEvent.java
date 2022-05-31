@@ -56,8 +56,12 @@ public class RegisterItemEvent {
 		items.register("magic_map_focus", "magicMapFocus", new ItemTF());
 		items.register("maze_map_focus", "mazeMapFocus", new ItemTF());
 		items.register("liveroot", "liveRoot", new ItemTF());
+
+/*
+		//Ironwood
 		items.register("ironwood_raw", "ironwoodRaw", new ItemTF());
 		items.register("ironwood_ingot", "ironwoodIngot", new ItemTF());
+
 		items.register("ironwood_helmet", "ironwoodHelm", new ItemTFIronwoodArmor(ARMOR_IRONWOOD, HEAD, EnumRarity.COMMON).setMaxStackSize(1));
 		items.register("ironwood_chestplate", "ironwoodPlate", new ItemTFIronwoodArmor(ARMOR_IRONWOOD, CHEST, EnumRarity.COMMON).setMaxStackSize(1));
 		items.register("ironwood_leggings", "ironwoodLegs", new ItemTFIronwoodArmor(ARMOR_IRONWOOD, LEGS, EnumRarity.COMMON).setMaxStackSize(1));
@@ -67,6 +71,21 @@ public class RegisterItemEvent {
 		items.register("ironwood_pickaxe", "ironwoodPick", new ItemTFIronwoodPick(TOOL_IRONWOOD).setMaxStackSize(1));
 		items.register("ironwood_axe", "ironwoodAxe", new ItemTFIronwoodAxe(TOOL_IRONWOOD).setMaxStackSize(1));
 		items.register("ironwood_hoe", "ironwoodHoe", new ItemTFIronwoodHoe(TOOL_IRONWOOD).setMaxStackSize(1));
+
+		//Steeleaf
+		items.register("steeleaf_ingot", "steeleafIngot", new ItemTF());
+
+		items.register("steeleaf_helmet", "steeleafHelm", new ItemTFSteeleafArmor(ARMOR_STEELEAF, HEAD, EnumRarity.COMMON).setMaxStackSize(1));
+		items.register("steeleaf_chestplate", "steeleafPlate", new ItemTFSteeleafArmor(ARMOR_STEELEAF, CHEST, EnumRarity.COMMON).setMaxStackSize(1));
+		items.register("steeleaf_leggings", "steeleafLegs", new ItemTFSteeleafArmor(ARMOR_STEELEAF, LEGS, EnumRarity.COMMON).setMaxStackSize(1));
+		items.register("steeleaf_boots", "steeleafBoots", new ItemTFSteeleafArmor(ARMOR_STEELEAF, FEET, EnumRarity.COMMON).setMaxStackSize(1));
+		items.register("steeleaf_sword", "steeleafSword", new ItemTFSteeleafSword(TOOL_STEELEAF).setMaxStackSize(1));
+		items.register("steeleaf_shovel", "steeleafShovel", new ItemTFSteeleafShovel(TOOL_STEELEAF).setMaxStackSize(1));
+		items.register("steeleaf_pickaxe", "steeleafPick", new ItemTFSteeleafPick(TOOL_STEELEAF).setMaxStackSize(1));
+		items.register("steeleaf_axe", "steeleafAxe", new ItemTFSteeleafAxe(TOOL_STEELEAF).setMaxStackSize(1));
+		items.register("steeleaf_hoe", "steeleafHoe", new ItemTFSteeleafHoe(TOOL_STEELEAF).setMaxStackSize(1));
+*/
+
 		items.register("torchberries", "torchberries", new ItemTF());
 		items.register("raw_venison", "venisonRaw", new ItemTFFood(3, 0.3F, true));
 		items.register("cooked_venison", "venisonCooked", new ItemTFFood(8, 0.8F, true));
@@ -81,16 +100,6 @@ public class RegisterItemEvent {
 		items.register("fiery_boots", "fieryBoots", new ItemTFFieryArmor(ARMOR_FIERY, FEET, EnumRarity.UNCOMMON).setMaxStackSize(1));
 		items.register("fiery_sword", "fierySword", new ItemTFFierySword(TOOL_FIERY).setMaxStackSize(1));
 		items.register("fiery_pickaxe", "fieryPick", new ItemTFFieryPick(TOOL_FIERY).setMaxStackSize(1));
-		items.register("steeleaf_ingot", "steeleafIngot", new ItemTF());
-		items.register("steeleaf_helmet", "steeleafHelm", new ItemTFSteeleafArmor(ARMOR_STEELEAF, HEAD, EnumRarity.COMMON).setMaxStackSize(1));
-		items.register("steeleaf_chestplate", "steeleafPlate", new ItemTFSteeleafArmor(ARMOR_STEELEAF, CHEST, EnumRarity.COMMON).setMaxStackSize(1));
-		items.register("steeleaf_leggings", "steeleafLegs", new ItemTFSteeleafArmor(ARMOR_STEELEAF, LEGS, EnumRarity.COMMON).setMaxStackSize(1));
-		items.register("steeleaf_boots", "steeleafBoots", new ItemTFSteeleafArmor(ARMOR_STEELEAF, FEET, EnumRarity.COMMON).setMaxStackSize(1));
-		items.register("steeleaf_sword", "steeleafSword", new ItemTFSteeleafSword(TOOL_STEELEAF).setMaxStackSize(1));
-		items.register("steeleaf_shovel", "steeleafShovel", new ItemTFSteeleafShovel(TOOL_STEELEAF).setMaxStackSize(1));
-		items.register("steeleaf_pickaxe", "steeleafPick", new ItemTFSteeleafPick(TOOL_STEELEAF).setMaxStackSize(1));
-		items.register("steeleaf_axe", "steeleafAxe", new ItemTFSteeleafAxe(TOOL_STEELEAF).setMaxStackSize(1));
-		items.register("steeleaf_hoe", "steeleafHoe", new ItemTFSteeleafHoe(TOOL_STEELEAF).setMaxStackSize(1));
 		items.register("minotaur_axe_gold", "minotaurAxeGold", new ItemTFMinotaurAxe(GOLD, EnumRarity.COMMON).setMaxStackSize(1));
 		items.register("minotaur_axe", "minotaurAxe", new ItemTFMinotaurAxe(DIAMOND, EnumRarity.UNCOMMON).setMaxStackSize(1));
 		items.register("mazebreaker_pickaxe", "mazebreakerPick", new ItemTFMazebreakerPick(DIAMOND).setMaxStackSize(1));

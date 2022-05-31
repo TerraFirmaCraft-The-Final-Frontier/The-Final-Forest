@@ -81,6 +81,22 @@ public class EntityTFMinotaur extends EntityMob implements ITFCharger {
 
 		int result = (int) (random / additionalDiff);
 
+		/*
+			ToDo: Replace Minotaur Axes with TFC Metal Halberds
+			
+			Metals ToDo:
+			- Copper
+			- Bronze
+			- Bismuth Bronze
+			- Black Bronze
+			- Brass
+			- Ironwood
+			- Cast Ironwood
+			- Silver
+			- Gold
+			- Electrum
+		*/
+
 		if (result == 0)
 			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND, new ItemStack(TFItems.minotaur_axe_gold));
 		else
